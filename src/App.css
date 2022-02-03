@@ -1,0 +1,56 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+  font-family:   'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+.form {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 8px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  background-color: orange;
+  width: 300px;
+  align-self: center;
+  
+}
+.connectButton {
+  cursor: pointer;
+  margin-top: 8px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  
+}
+
+.display-linebreak {
+  white-space: pre-line;
+}
